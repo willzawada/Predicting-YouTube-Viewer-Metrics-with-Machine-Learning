@@ -60,7 +60,7 @@ The feature-importance plots indicated that bitrate and duration contributed mor
 
 Therefore, across both tree-based models, the largest prediction errors occurred on videos with extremely high view counts. The models systematically underestimated these viral videos, indicating that while they captured general engagement patterns, they failed to model virality spikes. This aligns with the residual plots, which show increasing dispersion at higher predicted values. These errors suggest that viral dynamics are driven by factors absent from the metadata, such as channel influence or external social trends.
 
-**Conclusions and Recommendations:**
+**Conclusions, Recommendations, and Future Work:**
 
 These findings suggest that Gaming videos tend to drive video engagement more than most other video categories, with likes tending to receive more engagement than comments. While some categories appear more engaging than others, both category and technical metadata offer limited predictive value. Overall, these predictive models should incorporate richer behavioral and semantic features. The current findings indicate that most variation in YouTube engagement is driven by factors not present in this dataset, such as content quality, audience behavior, channel reputation, and recommendation-based algorithms. This is largely due to missing semantic and behavioral metadata such as channel subscriber count, upload timing, title text embeddings, thumbnail features, and NLP-based attributes.
 
